@@ -1,25 +1,29 @@
 html {
-  background: white;
+  background:white;
 }
 
 * {
-  font-family:"Crimson Text", serif;
+  font-family:"Happy Monkey", system-ui;
   box-sizing: border-box; /* Box sizing reset for consistency */
+  
 }
 
 body {
   color: #B19CD9;
+  margin: 8px;
 }
 
 h1, .contact-details {
   text-align: center;
-  color: #9667BB;
+  color:  #B19CD9;
+  margin: 10px;
 }
 p, ul{
   color: black;
+  margin: 10px;
 }
 hr{
-  border: 1px solid #9667BB;
+  border: 1px solid  #B19CD9;
 }
 .Languages > ul{
   list-style: none;
@@ -49,7 +53,7 @@ hr{
   left: 0;
   bottom: 0;
   transform: translateY(-50%);
-  margin-bottom: -15px;
+  margin-bottom: -12.5px;
 }
 
 .Languages > ul > .English::before {
@@ -61,7 +65,7 @@ hr{
 }
 
 .Languages > ul > .Spanish::before {
-  background-image: url('./images/Flag_of_Spain.svg.png');
+  background-image: url('./images/Flag_of_Spain.svg.webp');
 }
 
 .sections-wrapper {
@@ -158,7 +162,7 @@ hr{
 }
 .bold{
   font-weight: bold;
-  color: #9667BB;
+  color:  #B19CD9;
 }
 
 .intro-section {
@@ -204,7 +208,7 @@ hr{
 }
 
 .project-button {
-  background-color: #9667BB;
+  background-color: #B19CD9;
   color: white;
   border: none;
   padding: 12px 20px; /* Slightly increased padding for a larger button */
